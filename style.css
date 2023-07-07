@@ -11,4 +11,10 @@ Brand and Logo Abenet Asnake Tesfaye
     url("09d5772629cb46bc57208ddfd7b77f63.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url("09d5772629cb46bc57208ddfd7b77f63.svg#Carol Gothic W10 Regular") format("svg"); /* iOS 4.1- */
   }
-
+  .brand-name ,.navbar-light .navbar-brand{
+   
+    font-family:"Carol Gothic W10 Regular" !important;
+    font-size: 50px;
+    font-weight: bold;
+    color: #351458;
+}
