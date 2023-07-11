@@ -130,7 +130,8 @@ align-items: center;
 }
 }
 .Hello{
-   margin-bottom: 20px;
+  margin-bottom: 21px;
+    margin-top: -75px;
 }
 p{
    line-height: 2;
