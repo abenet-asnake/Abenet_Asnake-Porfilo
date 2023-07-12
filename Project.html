@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Abenet Asnake Portfolio</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -51,7 +51,32 @@
         </nav>
     </header>  
     
-   
+    <div class="container">
+      <aside>
+        <ul>
+          <li><a href="#" onclick="showFactorial()">Factorial</a></li>
+          <li><a href="#" onclick="showPermutation()">Permutation</a></li>
+        </ul>
+      </aside>
+  
+      <main>
+        <section id="factorial-section">
+          <h2>Factorial</h2>
+          <input type="number" id="factorial-input">
+          <button onclick="calculateFactorial()">Calculate</button>
+          <p id="factorial-result"></p>
+          <button onclick="resetFactorial()">Reset</button>
+        </section>
+  
+        <section id="permutation-section" style="display: none;">
+          <h2>Permutation</h2>
+          <input type="text" id="permutation-input">
+          <button onclick="generatePermutations()">Generate</button>
+          <p id="permutation-result"></p>
+          <button onclick="resetPermutation()">Reset</button>
+        </section>
+      </main>
+    </div>
     <footer class=footer>© 2023 Abenet Asnake.</footer>   
     </body>
     </html>
