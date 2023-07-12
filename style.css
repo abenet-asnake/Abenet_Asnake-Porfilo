@@ -15,6 +15,8 @@ Brand and Logo Abenet Asnake Tesfaye
     font-size: 50px;
     font-weight: bold;
     color: #4d1d80;
+    padding-top: 2.3125rem;
+    padding-bottom: -5.6875rem;
 }
 
 .headerachor {
@@ -255,7 +257,7 @@ text-align: center;
 
 .dev-icon{
     list-style: none;
-    display: inline;
+    display:inline-block;
     padding: 0%;
 }
 
@@ -307,6 +309,8 @@ End Of Section two of the project section
     font-size: 40px;
     font-weight: bold;
     color: #351458;
+    padding-top: 2.3125rem;
+    padding-bottom: -5.6875rem;
 }
 }
 @media only screen and (max-width : 991px) and (min-width: 951px){
@@ -344,7 +348,6 @@ End Of Section two of the project section
       height: 15%;
     }
 }
-
 
 
 
